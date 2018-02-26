@@ -1,0 +1,1117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	height: 100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	/*background-color: #ffedf3 !important; /*<===makes element more important then what ever elmement is overiding it*/
+}
+
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	padding: 0px;
+	/*background-color: #ffedf3;*/
+
+	
+}
+
+/*NAV*/
+
+.navbar-default {
+	background-color: white !important;
+	margin: 0;
+	border-width:1px;
+	border-color: white !important;
+}
+
+
+.navbar-brand{
+	font-family: courier,georgia;
+	font-weight: bold;
+
+}
+
+.active{
+	margin-left:20px;
+}
+
+.nav .navbar-nav {
+	float:left;
+}
+
+.navbar-nav li a {
+	font-family: courier,georgia;
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: #2f302d !important;
+
+}
+
+.navbar-nav li a:hover {
+	color: #777 !important;
+
+}
+
+
+.icon-bar i {
+ float:right;
+ font-size:2.5rem; 
+ margin-top:15px;
+ margin-left: 25px;
+ color: #2f302d;
+
+}
+
+.icon-bar i:hover{
+	color: #777;
+}
+
+/*----*/
+
+
+/*HOME------------------*/
+
+.logo-horse {
+	width:100%;
+	height: 500px;
+	background-image:url("./SH images/idella-maeland-19069.jpg");
+	background-position: center center;
+	background-size: cover;
+	float: left;
+	/*border:solid;
+	border-color: pink;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+/*.logo-horse h2 {
+font-family: AmaticSC-Regular, courier, helvetica;
+font-size: 13rem; /*6.5rem;
+margin-left: 0px;
+margin-top: 370px;
+color: white;
+text-shadow: -1px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1px black;
+}*/
+
+
+/*.title-row1 {
+	width:1140px;
+	height:50px;
+	position:;
+	background-color: pink;
+	float: left;
+
+} */
+
+.cover-title {
+	width: 100%;
+	height:auto;
+	float:left;
+}
+
+.cover-title h2 {
+font-family: AmaticSC-Regular, courier, helvetica;
+font-size: 11rem; /*6.5rem;*/
+margin-left: 90px;
+
+}
+
+/*.title-row2 {
+	width:1140px;
+	height:50px;
+	background-color: pink;
+	float: right;
+	margin-left: 20px;
+
+} */
+
+.title-border1 {
+width:100%; /*1100px*/
+height: 4px;
+background-color: pink; /*#cc99a2;*/
+margin: 0px; /*25px*/
+float:left;
+margin-top: 20px;
+
+}
+
+.title-border2 {
+width:100%; /*1100px*/
+height: 4px;
+background-color: pink; /*#cc99a2;*/
+margin: 0px; /*25px*/
+float:left;
+margin-bottom: 20px;
+
+} 
+
+.row-donate {
+	width:100%;
+	height:500px;
+	background-image: url("./SH images/jon-phillips-17576.jpg");
+	background-color: black;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	/*border:solid;
+	border-color: pink;*/
+	margin-top: 80px;
+}
+
+.col-donate {
+	width:400px;
+	height:420px;
+	background-color: #1f2119;
+	margin: 50px;
+	float: right;
+
+}
+
+.dontext {
+	font-family: AmaticSC-Bold, courier;
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #FFF;
+	margin-left: 120px;
+	
+
+}
+
+
+
+
+.dontextP {
+	font-family: courier;
+	font-size: 1.8rem;
+	color: #FFF;
+	margin-left: 25px;
+	
+}
+
+.donate-form {
+	width:calc(100% - 30px);
+	height:280px;
+	display: inline-block;
+	position: relative;
+	font-family: courier;
+	color:white;
+	margin:15px; 
+	float: left;
+	/*background-color: red;*/
+}
+
+.donate-form input {
+	margin-left: 40px !important;
+}
+
+#don-amount{
+	width:120px;
+	/*margin-left: 5px;*/
+	display: inline;
+}
+
+.namegroup input{
+	width:150px;
+	margin-left: 10px !important;
+	display: inline !important;
+}
+
+#donh-email {
+	width:90%;
+	margin-top: 10px;
+	margin-left: 10px !important;
+}
+
+
+#don-button {
+	/*width: 120px;
+	height: 80px;*/
+	background-color: #797c70;
+	font-family: courier;
+	font-size: 3rem;
+	color: #FFF;
+	border-color:#1f2119;
+	margin-left: 120px;
+	box-shadow: 1px 1px 15px #070906;
+}
+
+.donate-title {
+	font-family: courier;
+	font-size: 3.5rem;
+	color: #2f302d;
+	margin-left: 20px;
+	float: left;
+}
+
+
+
+.container-whatsNew {
+	width:100%;
+	height: auto;
+	/*background-color: #ffedf3;*/
+	float:left;
+	/*margin-top: 10px;*/
+}
+
+.Wrow {
+	width:100%;
+	height:auto;
+	margin-top: 20px;
+	padding-bottom: 0px;
+	float: left; 
+	background-color: #F0EDE9; /*#fff4f8;*/
+	/*border:solid;
+	border-color: pink;*/
+}
+
+.col-2 {
+	width: 300px;
+	height: 300px;
+	background-color: pink;
+	margin:40px;
+	margin-top: 40px;
+	margin-left: 38px;
+	float:left;
+	/*border:solid;
+	border-color: pink;*/
+}
+
+.nestcol {
+	width:100%;
+	height:70px;
+	margin-top:220px;
+	background:rgba(29, 38, 29, 0.6); 
+}
+
+.nestcol p a {
+	font-family: courier;
+	font-size: 3.5rem;
+	font-weight: lighter;
+	color: white;
+	margin-left: 50px;
+	margin-top: 10px;
+	float: left;
+
+}
+
+.nestcol a:hover {
+	text-decoration: none;
+	;
+	
+}
+
+.nestcol:hover{
+	opacity: 0.7;
+}
+
+/*.col-2:hover {
+opacity: 0.8;
+}*/
+
+
+
+#learnbox {
+background-image:url("./SH images/jarren-simmons-35780.png");
+
+}
+
+#learnbox:hover{
+	/*opacity:  0.8; */
+}
+
+#volenteerbox {
+	background-image: url("./SH images/annie-spratt-204869web.png");
+
+}
+#volenteerbox:hover{
+	/*opacity:  0.8; */
+}
+
+#donatebox {
+background-image: url("./SH images/mickaela-scarpedis-casper-92078web.png");
+
+}
+#donatebox:hover{
+	/*opacity:  0.8; */
+}
+
+
+.container-mission {
+	width:100%;
+	height: auto;
+	background-color: #F6FDF4; /*#EAF2ED #E3EEE7 #F5F9F0; #F9F4F5; #ffedf3;*/
+	float:left;
+	margin-top: 120px;
+	margin-bottom: 120px;
+	/*border: 2px solid pink;*/
+	box-shadow: 0px 0px 10px #7F9880;  /*#C79C9C;*/
+
+}
+
+.container-mission h2 {
+	font-family: AmaticSC-Regular, courier;
+	font-size: 7rem;
+	font-weight: lighter;
+	color: #2f302d;
+	margin-left: 360px;
+}
+
+
+
+hr.style1 {
+	border-top: 3px double pink;
+	width:50%;
+	margin-top: 20px;
+	
+}
+
+.container-mission p {
+	font-family: courier, georgia;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #2f302d;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 30px;
+
+}
+
+
+
+/*END HOME--------*/
+
+
+/*VOLENTEER-------------------------*/
+
+
+
+.vol-h1{
+	font-family: AmaticSC-Regular, courier;
+	font-size: 8rem;
+	margin-top: 130px;
+	text-align: center;
+
+}
+
+.vol-p{
+	font-family: courier, georgia;
+	font-size: 2rem;
+	font-weight:;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	text-align: center;
+	float: left;
+}
+
+ #spanhills{
+ 	font-weight: bold;
+ 	color: #1f2119;
+ }
+
+ .spanformlight{
+ 	font-size: 1.2rem;
+ 	font-weight: lighter;
+ }
+
+.volunteer-form{
+	width:calc(100% - 20px);
+	height:auto;
+	display: inline-block;
+	position: relative;
+	font-family: courier;
+	color:black;
+	margin: 15px; 
+	padding: 25px;
+	float: left;
+	/*border: 1px solid;*/
+	/*border-color: pink; /*#9EA6A1;*/
+	background-color: #EAF2ED;
+	box-shadow: 0px 0px 10px #7F9880;
+	/*background-color: #1f2119;*/
+}
+
+.vol-input{
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+/*.vol-label {
+	margin-top: 10px;
+	margin-left: 10px;
+}*/
+
+#vol-button{
+
+	width: auto;
+	height: auto;
+	background-color: #797c70;
+	border-color: #797c70 ;
+	font-family: courier;
+	text-align: center;
+	/*font-weight: bold;*/
+	font-size: 2rem;
+	padding-bottom: 10px;
+	margin: 10px;
+	/*margin-left:30%;*/
+	box-shadow: 1px 1px 15px #7F9880;
+
+	/*OTHER BUTTON*/
+	/*color: black;
+	height: auto;
+	width: auto;
+	padding: 10px;
+	font-size: 2rem;*/
+}
+/*----*/
+
+
+/*END VOLENTEER
+
+
+
+/*ABOUT--------------------------*/
+
+#about-img{
+	width: 90%;
+	float: right;
+}
+
+#about-img2{
+	width: 90%;
+	float: left;
+}
+
+.about-h1{
+	font-family: AmaticSC-Regular, courier;
+	font-size: 8rem;
+	margin-top: 110px;
+	text-align: center;
+
+}
+
+.about-p{
+	font-family: courier, georgia;
+	font-size: 1.8rem;
+	font-weight: normal;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+
+}
+
+/*FOR CONTACT PAGE and DONATE PAGE AS WELL*/
+#col-p{
+width: 50%;
+}
+
+#col-img{
+width: 50%;
+}
+
+.col-lg{
+	margin-top: 50px;
+	float: left;
+
+}
+/*-----------*/
+
+
+hr.style2 {
+	border-top: 3px double pink;
+	width:50%;
+	margin-top: 150px;
+	
+}
+
+#firefox-hide{
+	display: none;
+}
+
+
+#hours-contain{
+	
+
+	/*margin-top: 10px;*/
+}
+
+
+#about-h3{
+font-size: 5rem;
+margin-bottom: 50px;
+/*font-family: courier;*/
+/*font-weight: bold;*/
+
+}
+
+.table {
+	/*margin-bottom: 50px !important;*/
+	margin-top: 50px;
+	/*border-collapse: ;*/
+	/*border-bottom: solid 1px pink;*/
+	width:50% !important;
+	margin: 0 auto !important;
+	box-shadow: 0px 0px 10px #7F9880;
+}
+
+
+
+/*.table tbody {
+	border-top: 0px solid pink !important;
+}*/
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+     border-bottom: 1px solid pink !important ;
+
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 0 !important ;
+}
+
+
+/*END ABOUT*/
+
+
+/*CONTACT--------------------------*/
+
+
+.contact-p {
+	font-family: courier, georgia;
+	font-size: 2rem;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#con-style{
+	margin-top: 0;
+}
+
+
+.contact-form{
+	width:100%;
+	font-family: courier;
+	color:black;
+	/*border: 1px solid #9EA6A1;*/
+	background-color: #EAF2ED; /*#E3EEE7;*/
+	box-shadow: 0px 0px 10px #7F9880;
+	/*background-color: #1f2119 ;*/
+}
+
+
+.contact-input{
+	width: 95%;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding-left: 10px;
+}
+
+#contact-button{
+	width: 200px;
+	height: auto;
+	background-color: #797c70;
+	border-color: #797c70 ;
+	font-family: courier;
+	text-align: center;
+	/*font-weight: bold;*/
+	font-size: 2rem;
+	padding-bottom: 10px;
+	margin: 10px;
+	margin-left: 30%;
+	box-shadow: 1px 1px 15px #7F9880;
+
+	/*OTHER BUTTON*/
+	/*color: black;
+	height: auto;
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 30%;
+	font-size: 2rem;*/
+	/*---*/
+}
+
+textarea {
+  resize: none;
+}
+
+
+.contact-box{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+
+
+
+.contact-p-box{
+	font-family: courier, georgia;
+	font-size: 1.5rem;
+	font-weight: normal;
+	text-align: center;
+	margin-right: 150px;
+	float: right;
+
+}
+
+#con-phone{
+font-size: 1.9rem;
+}
+
+#con-email{
+	font-size: 1.5rem;
+	margin-left: 0;
+	margin-right: 110px ;
+}
+
+.contact-i{
+	font-size: 3rem;
+	margin-left:120px;
+/*	float: left;*/
+}
+
+
+/*END CONTACT*/
+
+
+/*DONATE------------*/
+
+
+.donate-h1{
+	font-family: AmaticSC-Regular, courier;
+	font-size: 8rem;
+	margin-top: 80px;
+	text-align: center;
+
+}
+
+#col-form1{
+	width: 50%;
+	background-color: #EAF2ED; /*#E3EEE7 #EAF2ED, #1f2119;*/
+	/*border-top: 2px solid pink;*/
+	/*border-left: 2px solid pink;*/
+	padding-bottom: 300px;
+	box-shadow: -1px 0px 10px #7F9880;
+}
+
+
+.donH3{
+
+	font-family: courier;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	text-align: center;
+	/*color: white;*/
+}
+
+
+#donH3none{
+	font-family: courier;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.donH3MQ{
+	display: none;
+}
+
+.formAmount{
+	display: block;
+}
+
+#form-amountMQ{
+	display: none;
+}
+
+
+.donateForm{
+	margin-left: 90px;
+	margin-top: 30px;
+
+
+	
+}
+
+
+
+
+.btn-default {
+	margin-left: 15px; 
+	padding: 15px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	/*background-color: #83B98C !important;*/
+	font-weight: bold !important;
+
+}
+
+
+#don-info1{
+	margin-top: 50px;
+	
+}
+
+#don-info1 p{
+	font-family: courier;
+	font-weight: bolder;
+	font-size: 2.1rem;
+	/*color: white;*/
+	/*margin-left: 0px;*/
+}
+
+#don-info1 label{
+	font-family: courier;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	/*color: white;*/
+	/*margin-left: 0px;*/
+}
+
+
+#don-name input{
+	width:30%;
+	height: 30px;
+	margin-left: 15px;
+}
+
+#don-email input{
+	width:50%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+#don-phone input {
+	width:30%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+#don-birth select{
+	width:20%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+
+#don-info1 input{
+	height: 40px !important;
+}
+
+/*HR -------*/
+
+#midP {
+	position: absolute;
+	background-color: #EAF2ED;
+	margin-left: 570px;
+	margin-top: 70px;
+}
+
+#midP p{
+	font-size: 2rem;
+	font-weight: lighter;
+
+}
+
+/*FORM 2*/
+
+
+#col-form2{
+	width: 50%;
+	background-color: #EAF2ED;
+	border-left: 4px double pink;
+	/*border-top: 2px solid pink;*/
+	/*border-right: 2px solid pink;*/
+	padding-bottom: 29px;
+	box-shadow: 1px 0px 10px #7F9880;
+
+}
+
+.donateForm2{
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#form-amount{
+	height: 50px;
+	width: 70%;
+	margin-left: 55px;
+
+}
+
+
+.don-info2{
+	margin-top: 50px;
+	
+}
+
+.don-info2 p{
+	font-family: courier;
+	font-weight: bolder;
+	font-size: 2.1rem;
+	/*margin-left: 0px;*/
+}
+
+
+.don-info2 label{
+	font-family: courier;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	/*margin-left: 0px;*/
+}
+
+
+#name-card input {
+	width:30%;
+	height: 30px;
+	margin-left: 15px;
+}
+
+#number-card input {
+	width:50%;
+	height: 30px;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+
+#card-icons {
+	font-size: 2.5rem;
+	margin-left: 150px;
+	
+}
+
+#icon-p{
+font-size: 1.5rem;
+font-weight: lighter;
+display: inline;
+margin-left: 0;
+}
+
+#icon-btn{
+width: 80px;
+height: 40px;
+margin-top: 5px;
+background-image: url(file:///C:/Users/Lauren/Pictures/web%20design%202017/paypal_lg.jpg); 
+background-size: 100%;
+background-position: center;
+
+}
+
+
+.don-info2 input{
+	height: 40px !important;
+}
+
+
+
+#exp-card select{
+	width:20%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+
+#security-num input {
+	width: 10%;
+	height: 40px;
+}
+
+
+#country-select select{
+	width:40%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+
+#bill-address input{
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 4px;
+
+}
+
+
+#bill-city input{
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#bill-state select{
+	width:40%;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+#bill-state input{
+	width: 15%;
+	height: 30px;
+}
+
+/*END FORM2 -----------*/
+
+#col-donate{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	/*background-color: pink;*/
+	margin-left: 400px;
+	margin-top: 40px;
+	
+
+}
+
+
+#btn-donate button{
+	width: 60%;
+	height: 50px;
+	background-color: #797c70;
+	border-color: #797c70 ;
+	font-family: courier;
+	text-align: center;
+	/*font-weight: bold;*/
+	font-size: 2rem;
+	padding-bottom: 10px;
+	/*padding-right: 5px;*/
+	float: left;
+	box-shadow: 1px 1px 15px #7F9880;
+
+}
+
+
+#summary {
+	width: 100%
+	height: 50px;
+	/*margin-left: px;*/
+	display: inline;
+	float: left;
+	margin-left: 20px;
+
+}
+
+#amount{
+	font-family: courier;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/*END DONATE------*/
+
+
+
+
+/*FOOTER---------*/
+
+.footer{
+	width: 100%; /*1140px;*/
+	height: auto;
+	/*background-color: pink;*/
+	/*float:left;*/
+	margin-left:0;
+	margin-top: 130px;
+}
+
+.foot-col {
+	width: 350px;
+	height: 300px;
+	background-color: white;
+	margin:0px;
+	margin-top: 10px;
+	margin-left:20px;
+	float:left;
+}
+
+
+
+#emailbox h2 {
+	font-family: AmaticSC-Regular, courier;
+	font-size: 5rem;
+	margin-top: 50px;
+}
+
+#emailbox h3 {
+	font-family: courier, georgia;
+	font-size: 1.5rem;
+
+}
+
+.email-form input {
+	display: inline;
+	width: 250px;
+	margin-top: 10px;
+}
+
+.email-form button {
+	width: 80px;
+
+}
+
+#join-button {
+	font-family: courier, georgia;
+	font-weight: bolder;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #1f2119;
+	border: 1px solid white !important;
+	display: inline;
+}
+
+#addressbox{
+border-right: solid;
+border-left: solid;
+border-width: 4px;
+border-color: pink;
+}
+
+#addressbox h2 {
+	font-family: AmaticSC-Regular, courier;
+	font-size: 5.5rem;
+	text-align: center;
+
+}
+
+#awardbox img {
+display: inline-block;
+margin-top: 80px;
+margin-left: 20px;
+}
+
+.footer p {
+	font-family: courier, georgia;
+	font-size: 1.5rem;
+	text-align: center;
+	float: left;
+	margin-left: 20%;
+}
+
+@font-face{
+    font-family: "AmaticSC-Regular";
+    src:url(AmaticSC-Regular.ttf) format('truetype');
+}
+
+   
+
+@font-face{
+    font-family: "AmaticSC-Bold";
+    src:url(AmaticSC-Bold.ttf) format('truetype');
+}
